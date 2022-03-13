@@ -70,7 +70,7 @@ const eventsFromDashboard = [
      newEvent.hostPhotoURL = '/assets/user.png';
      this.setState(({events}) => ({
        events: [...events, newEvent],
-       isOpen: false
+      
      }))
    }
 
